@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF85B5D61811938B0024BA35 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF85B5D51811938B0024BA35 /* words.txt */; };
+		BF85B5D71811938B0024BA35 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF85B5D51811938B0024BA35 /* words.txt */; };
+		BF85B5E618119EAA0024BA35 /* CYResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF85B5E518119EAA0024BA35 /* CYResultsViewController.m */; };
+		BF85B5E718119EAA0024BA35 /* CYResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF85B5E518119EAA0024BA35 /* CYResultsViewController.m */; };
+		BFA6FA4918118C88007B6F39 /* CYWordHacker.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA6FA4818118C88007B6F39 /* CYWordHacker.m */; };
+		BFA6FA4A18118C88007B6F39 /* CYWordHacker.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA6FA4818118C88007B6F39 /* CYWordHacker.m */; };
 		BFF67A5718111BE10045A491 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF67A5618111BE10045A491 /* Foundation.framework */; };
 		BFF67A5918111BE10045A491 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF67A5818111BE10045A491 /* CoreGraphics.framework */; };
 		BFF67A5B18111BE10045A491 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF67A5A18111BE10045A491 /* UIKit.framework */; };
@@ -21,6 +27,7 @@
 		BFF67A7818111BE20045A491 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF67A5A18111BE10045A491 /* UIKit.framework */; };
 		BFF67A8018111BE20045A491 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFF67A7E18111BE20045A491 /* InfoPlist.strings */; };
 		BFF67A8218111BE20045A491 /* LetterFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF67A8118111BE20045A491 /* LetterFunTests.m */; };
+		BFF67A9018111CC80045A491 /* CYLetterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF67A8F18111CC80045A491 /* CYLetterManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF85B5D51811938B0024BA35 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		BF85B5E418119EAA0024BA35 /* CYResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYResultsViewController.h; sourceTree = "<group>"; };
+		BF85B5E518119EAA0024BA35 /* CYResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYResultsViewController.m; sourceTree = "<group>"; };
+		BFA6FA4718118C88007B6F39 /* CYWordHacker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYWordHacker.h; sourceTree = "<group>"; };
+		BFA6FA4818118C88007B6F39 /* CYWordHacker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYWordHacker.m; sourceTree = "<group>"; };
 		BFF67A5318111BE10045A491 /* LetterFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetterFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF67A5618111BE10045A491 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BFF67A5818111BE10045A491 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +65,8 @@
 		BFF67A7D18111BE20045A491 /* LetterFunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LetterFunTests-Info.plist"; sourceTree = "<group>"; };
 		BFF67A7F18111BE20045A491 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFF67A8118111BE20045A491 /* LetterFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetterFunTests.m; sourceTree = "<group>"; };
+		BFF67A8E18111CC80045A491 /* CYLetterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLetterManager.h; sourceTree = "<group>"; };
+		BFF67A8F18111CC80045A491 /* CYLetterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLetterManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +129,16 @@
 				BFF67A6518111BE10045A491 /* CYAppDelegate.h */,
 				BFF67A6618111BE10045A491 /* CYAppDelegate.m */,
 				BFF67A6818111BE10045A491 /* Main.storyboard */,
+				BFF67A8E18111CC80045A491 /* CYLetterManager.h */,
+				BFF67A8F18111CC80045A491 /* CYLetterManager.m */,
+				BFA6FA4718118C88007B6F39 /* CYWordHacker.h */,
+				BFA6FA4818118C88007B6F39 /* CYWordHacker.m */,
 				BFF67A6B18111BE10045A491 /* CYViewController.h */,
 				BFF67A6C18111BE10045A491 /* CYViewController.m */,
+				BF85B5E418119EAA0024BA35 /* CYResultsViewController.h */,
+				BF85B5E518119EAA0024BA35 /* CYResultsViewController.m */,
 				BFF67A6E18111BE10045A491 /* Images.xcassets */,
+				BF85B5D51811938B0024BA35 /* words.txt */,
 				BFF67A5D18111BE10045A491 /* Supporting Files */,
 			);
 			path = LetterFun;
@@ -232,6 +253,7 @@
 				BFF67A6F18111BE10045A491 /* Images.xcassets in Resources */,
 				BFF67A6118111BE10045A491 /* InfoPlist.strings in Resources */,
 				BFF67A6A18111BE10045A491 /* Main.storyboard in Resources */,
+				BF85B5D61811938B0024BA35 /* words.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF85B5D71811938B0024BA35 /* words.txt in Resources */,
 				BFF67A8018111BE20045A491 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,7 +275,10 @@
 			files = (
 				BFF67A6718111BE10045A491 /* CYAppDelegate.m in Sources */,
 				BFF67A6318111BE10045A491 /* main.m in Sources */,
+				BFA6FA4918118C88007B6F39 /* CYWordHacker.m in Sources */,
+				BF85B5E618119EAA0024BA35 /* CYResultsViewController.m in Sources */,
 				BFF67A6D18111BE10045A491 /* CYViewController.m in Sources */,
+				BFF67A9018111CC80045A491 /* CYLetterManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF85B5E718119EAA0024BA35 /* CYResultsViewController.m in Sources */,
 				BFF67A8218111BE20045A491 /* LetterFunTests.m in Sources */,
+				BFA6FA4A18118C88007B6F39 /* CYWordHacker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +489,7 @@
 				BFF67A8718111BE20045A491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFF67A8818111BE20045A491 /* Build configuration list for PBXNativeTarget "LetterFunTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +498,7 @@
 				BFF67A8A18111BE20045A491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
